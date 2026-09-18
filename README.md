@@ -1,7 +1,8 @@
-# Fedora Book
+# Charoite
 
-A fedora bootc based image designed to be a lightweight testbed for quickshell
-and other tinkering. This is not intended to be a stable platform at this time.
+Charoite is a fedora bootc based image designed to be a lightweight testbed for
+quickshell and other tinkering. This is not intended to be a stable platform at
+this time.
 
 ## Contributing
 
