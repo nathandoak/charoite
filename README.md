@@ -1,18 +1,35 @@
 # Fedora Book
 
-A fedora bootc based image designed to be a lightweight testbed for quickshell and other tinkering. This is not intended to be a stable platform.
+A fedora bootc based image designed to be a lightweight testbed for quickshell
+and other tinkering. This is not intended to be a stable platform at this time.
 
 ## Contributing
 
-Please don't, I do not have much time to look over things. Not that I'm expecting this to be much beyond a personal project. If you must use this as a starting point, please maintain your own fork.
+This is a personal project. I am not in a position to review PRs or manage
+contributions at this time. If you are interested in this project, feel free to
+fork this repo.
 
 ## Installation
 
-Have not the foggiest yet... still learning.
+TBD - I'm still figuring this out. When I have something, I'll put it here.
+
+## Packages
+
+Package        | Description
+---------------|-------------------------------------------------------------
+cage           | A simple Wayland compositor built on wayland-scanner for kiosk-like sessions.
+greetd         | A display manager daemon that handles login sessions on Wayland.
+greetd-selinux | SELinux policy package for greetd.
+NetworkManager | Toolkit for managing network connections.
+niri           | A tiling Wayland compositor inspired by sway.
+quickshell     | A QML-based desktop shell with a lightweight UI layer.
 
 ## AI Policy
 
-While I'd like to avoid AI, I cannot deny that it helps in some cases. That said, AI will be used in the development of this project. However, AI will be used with restraint primarily to help maintain the readme, provide suggestions, etc. It will not be used to "vibecode" this image or its configuration.
+While I'd like to avoid AI, I cannot deny that it helps in some cases. That
+said, AI will be used with restraint. Presently AI will be used to maintain the
+readme, provide suggestions, etc. It will not be used to "vibecode" this image
+or its configuration.
 
 ## License
 
