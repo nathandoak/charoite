@@ -13,3 +13,12 @@ Have not the foggiest yet... still learning.
 ## AI Policy
 
 While I'd like to avoid AI, I cannot deny that it helps in some cases. That said, AI will be used in the development of this project. However, AI will be used with restraint primarily to help maintain the readme, provide suggestions, etc. It will not be used to "vibecode" this image or its configuration.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+This image is based on Fedora Linux, which bundles software under various
+open-source licenses. All Fedora packages retain their respective original
+licenses as distributed by Fedora. See
+https://fedoraproject.org/wiki/Licensing for details.
