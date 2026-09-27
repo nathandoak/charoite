@@ -1,6 +1,8 @@
 FROM quay.io/fedora/fedora-bootc:44
 
-RUN dnf -y install \
+RUN <<EOF
+
+dnf -y install \
     greetd \
     greetd-selinux \
     NetworkManager \
@@ -9,4 +11,13 @@ RUN dnf -y install \
     cage \
     && dnf clean all
 
-RUN systemctl enable greetd.service
+systemctl enable greetd.service
+
+bootc container lint
+
+echo NAME="Charoite"
+echo ID="fedora_linux_charoite"
+echo ID_LIKE="rhel fedora"
+echo PRETTY_NAME="Charoite (Rough)"
+
+EOF
