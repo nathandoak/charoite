@@ -15,9 +15,13 @@ systemctl enable greetd.service
 
 bootc container lint
 
-echo NAME="Charoite"
-echo ID="fedora_linux_charoite"
-echo ID_LIKE="rhel fedora"
-echo PRETTY_NAME="Charoite (Rough)"
+
+sed -i -E '/^(NAME|PRETTY_NAME|VARIANT|VARIANT_ID)=/d' /usr/lib/os-release
+
+printf '%s\n' \
+    'NAME="Charoite"' \
+    'ID="fedora_linux_charoite"' \
+    'ID_LIKE="rhel fedora"' \
+    'PRETTY_NAME="Charoite (Rough)"' >> /usr/lib/os-release
 
 EOF
